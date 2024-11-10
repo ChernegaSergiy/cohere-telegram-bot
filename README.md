@@ -22,7 +22,7 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cohere-telegram-bot.git
+   git clone https://github.com/ChernegaSergiy/cohere-telegram-bot.git
    cd cohere-telegram-bot
    ```
 
