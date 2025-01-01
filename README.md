@@ -18,6 +18,9 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
 - A Telegram bot token (create one with [BotFather](https://t.me/BotFather))
 - A Cohere API key (sign up at [Cohere](https://cohere.ai/))
 
+![Cohere Telegram Bot Interface](https://github.com/user-attachments/assets/5bd480c5-3990-435a-b115-82e158f3a226)
+*Example of interaction with the bot in Telegram.*
+
 ### Installation
 
 1. Clone the repository:
