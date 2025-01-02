@@ -13,7 +13,7 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
 
 ### Prerequisites
 
-- PHP 7.4 or higher
+- PHP 7.4 or higher **(or PHP 7.3 for legacy support)**
 - Composer
 - A Telegram bot token (create one with [BotFather](https://t.me/BotFather))
 - A Cohere API key (sign up at [Cohere](https://cohere.ai/))
@@ -31,7 +31,15 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
 
 2. Install dependencies:
 
+   For PHP 7.4 or higher:
    ```bash
+   composer require telegram-bot/api
+   composer install
+   ```
+
+   For PHP 7.3 support (on the `legacy-php-7.3` branch):
+   ```bash
+   git checkout legacy-php-7.3
    composer require telegram-bot/api
    composer install
    ```
