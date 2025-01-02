@@ -639,7 +639,7 @@ class CohereTelegramBot
 
         foreach ($lines as $line) {
             if (preg_match('/^\s*[-*]\s+(.+)$/', $line, $matches)) {
-                $formattedLines[] = "• {$matches[1]}";
+                $formattedLines[] = "Â• {$matches[1]}";
             } elseif (preg_match('/^\s*(\d+)\.\s+(.+)$/', $line, $matches)) {
                 $formattedLines[] = "{$matches[1]}. {$matches[2]}";
             } else {
