@@ -30,7 +30,6 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
    ```
 
 2. Install dependencies:
-
    ```bash
    composer require telegram-bot/api
    composer install
@@ -39,7 +38,6 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
 3. Configure your bot token and API key in the `bot.php` file.
 
 4. Run the bot:
-
    ```bash
    php bot.php
    ```
