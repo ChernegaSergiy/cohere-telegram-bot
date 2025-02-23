@@ -1,5 +1,8 @@
 # Cohere Telegram Bot
 
+> [!WARNING]
+> This branch of the repository for PHP 7.3.10 is deprecated and will no longer receive updates. It is created solely to run on older Linux distributions.
+
 A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver intelligent responses and assistance. This bot manages user interactions, including terms acceptance and context retention, to create a seamless experience.
 
 ## Features
