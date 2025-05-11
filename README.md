@@ -47,9 +47,9 @@ A Telegram bot that utilizes the [Cohere API](https://cohere.ai/) to deliver int
    composer install
    ```
 
-4. Configure your bot token and API key in the `bot.php` file.
+3. Configure your bot token and API key in the `bot.php` file.
 
-5. Run the bot:
+4. Run the bot:
    ```bash
    php bot.php
    ```
